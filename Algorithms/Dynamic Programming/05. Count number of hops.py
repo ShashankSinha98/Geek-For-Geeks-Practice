@@ -8,7 +8,7 @@ def solve(n):
         for j in range(i,i-4,-1):
             if j>=0:
                 dp[i]+=dp[j]
-    print(dp)
+    #print(dp)
     return dp[n]
 
 
