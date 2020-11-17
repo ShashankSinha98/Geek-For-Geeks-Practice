@@ -22,7 +22,7 @@ def longest_prefix_suffix(inp_str):
             else:
                 j = arr[j-1]
 
-    return max(arr)
+    return arr[-1]
 
 
 
